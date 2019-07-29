@@ -290,7 +290,6 @@ class BaseTable extends Component {
 
   _checkStyle = () => {
     if (this.firstTableChild.className.includes("table-search")) {
-      // console.log('DONE 1')
 
       if (
         this.baseTableRef.current.previousSibling &&
